@@ -22,7 +22,7 @@ const Home = () => {
   
   return (
     <div className='home-container'>
-      <button onClick={() => history.back()}>Go back</button>
+      
       <Navbar 
       initialNav={
         <div className="home-f">
