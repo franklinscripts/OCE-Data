@@ -1,0 +1,45 @@
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    z-index: 999;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    border-bottom: .003px solid rgba(255, 255, 255, 0.096);
+    overflow: hidden;
+
+}
+
+.navbar-container .profile{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+
+
+}
+
+
+.navbar-container .profile .navbar-title{
+    color: #777E90;
+    font-size: 14px;
+}
+.navbar-container .profile .navbar-subtitle{
+    color: #e7e8ec;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.navbar-container .profile img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid #03416A;
+    overflow: hidden;
+    object-fit: cover;
+    padding: 3px;
+    
+}

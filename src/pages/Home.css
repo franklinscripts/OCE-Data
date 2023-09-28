@@ -1,0 +1,43 @@
+
+.navbar-container .profile .navbar-title{
+    color: #777E90;
+    font-size: 14px;
+}
+.navbar-container .profile .navbar-subtitle{
+    color: #e7e8ec;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.navbar-container .profile img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid #03416A;
+    overflow: hidden;
+    object-fit: cover;
+    padding: 3px;
+    
+}
+.home-container .home-f{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.home-container .main{
+    width: 500px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    margin-top: 0.5rem;
+
+}
+.main .balance-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+@media (max-width: 500px) {
+    .home-container .main{
+        width: 100%;
+    }
+}

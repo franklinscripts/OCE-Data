@@ -1,0 +1,11 @@
+.icons-flex{
+    display: flex;
+    align-items: center;
+    color: #6f7070;
+    gap: 20px;
+    
+} 
+
+.icons-flex svg{
+    font-size: 30px;
+}

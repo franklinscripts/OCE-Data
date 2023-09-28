@@ -1,0 +1,62 @@
+.container{
+    width: 100%;
+    margin-top: 4.5rem;
+}
+.container .acct-bal{
+    color: #767D8E;
+    font-size: 14px;
+}
+.container .bal{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    color: #F4F5F6;
+    font-size: 35px;
+    
+}
+.bal .naira{
+    font-size: 25px !important;
+    color: #B1B5C3 !important;
+}
+.bal .amount{
+    font-weight: bold;
+}
+
+.btns{
+    display: flex;
+    align-items: center;
+    margin: 0.3rem 0.2rem;
+    gap: 10px;
+}
+
+.btns button:nth-child(2){
+    background-color: #1872BC;
+    width: 100%;
+}
+.btns button:nth-child(1){
+    background-color: #23262F;
+    width: 200px;
+}
+button{
+    padding: 16px 30px;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color:#F4F5F6;
+
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    justify-content: center;
+}
+span{
+    background-color: inherit;
+}
+img, svg{
+    background-color: inherit;
+    
+}
+.btns img{
+    width: 26px;
+}
