@@ -17,7 +17,7 @@ const router = createBrowserRouter([
     element: <Dashboard />,
     children: [
       {
-        path:'services',
+        path:'/services',
         element: <Services />,
       },
       {
@@ -25,11 +25,11 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path:'history',
+        path:'/history',
         element: <History />,
       },
       {
-        path:'more',
+        path:'/more',
         element: <More />,
       },
     ]
