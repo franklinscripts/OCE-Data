@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import History from './pages/History';
 import More from './pages/More';
 import ErrorPage from './components/404';
+import Send from './components/Send'
 const router = createBrowserRouter([
   {
     path:"/",
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
       {
         path:'more',
         element: <More />,
+      },
+      {
+        path:'send',
+        element: <Send />
       },
     ]
   },

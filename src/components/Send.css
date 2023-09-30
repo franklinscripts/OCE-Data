@@ -1,0 +1,87 @@
+.send-container{
+
+    width: 100%;
+}
+
+.send-trans{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.send-trans .send-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    color: #B1B5C3;
+
+    /* width: 35px;
+    height: 35px; */
+    padding: 10px;
+    background-color: #23262F;
+}
+
+
+.send-icon svg{
+    font-size: 16px;
+    font-weight: bold;
+}
+.send-trans span{
+    color: #B1B5C3;
+    font-weight: bold;
+}
+.form{
+    color: white;
+    margin-top: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form button{
+    outline: none;
+    border: 2px solid #04273E;
+    border-radius: 15px;
+    width: 100%;
+    padding:10px 10px;
+    font-size: 14px;
+    margin-bottom: 1em;
+    color: #04273E;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form input{
+    padding: 15px ;
+    margin-top: 0.5rem;
+    border-radius: 6px;
+    background-color: #151515;
+    color: #5B606E;
+    margin-bottom: 2rem;
+    font-size: 18px;
+}
+.form ::placeholder{
+    color: #5B606E;
+    font-size: 18px;
+
+}
+.form-container span
+{
+    color: #d9dce9;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+.form-container p{
+    font-size: 13px;
+    color: #5B606E;
+    margin-top: -.5rem;
+    margin-bottom: 1rem;
+}
+
+.form label {
+    font-size: 14px;
+    color: #464953;
+}
