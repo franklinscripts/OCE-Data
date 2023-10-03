@@ -1,6 +1,6 @@
 .send-container{
 
-    width: 100%;
+    /* width: 1024px; */
 }
 
 .send-trans{
@@ -61,8 +61,9 @@
     color: #5B606E;
     margin-bottom: 2rem;
     font-size: 18px;
+    width: 400px;
 }
-.form ::placeholder{
+.form::placeholder{
     color: #5B606E;
     font-size: 18px;
 
@@ -84,4 +85,9 @@
 .form label {
     font-size: 14px;
     color: #464953;
+}
+@media (max-width: 420px) {
+    .form input{
+        width: 100%;
+    }
 }

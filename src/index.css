@@ -7,3 +7,16 @@
   box-sizing: border-box;
 
 }
+/* button{
+  
+} */
+
+button:hover{
+  transition:  ease-in-out .2s;
+  transform: scale(1.05);
+}
+
+svg:hover{
+  transition:  ease-in-out .2s;
+  transform: scale(1.2);
+}

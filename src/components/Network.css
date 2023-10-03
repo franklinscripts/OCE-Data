@@ -67,6 +67,10 @@
     cursor: pointer;
 
 }
+.n-select-container:hover{
+    transition:  ease-in-out .2s;
+    transform: scale(1.07);
+}
 
 .n-select .n-select-container span{
     font-weight: bold;
