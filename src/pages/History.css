@@ -9,3 +9,14 @@
 .icons-flex svg{
     font-size: 30px;
 }
+
+.history-main{
+    margin-top: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.history-main p{
+    font-size: 14px;
+}

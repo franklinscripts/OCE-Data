@@ -14,36 +14,42 @@ export const imgData = [
     {
         id: 1,
         img: Data,
+        desc: "Subscribe data to any network ",
         title: 'Data',
 
     },
     {
         id: 2,
         img: Airtime,
+        desc: "Recharge any phone easily",
         title: 'Airtime2Cash',
 
     },
     {
         id: 3,
         img: Airtimes,
+        desc: "Convert airtime to cash",
         title: 'Airtime',
 
     },
     {
         id: 4,
         img: Utils,
+        desc: "Instantly load up your electricity",
         title: 'Utility',
 
     },
     {
         id: 5,
         img: TV,
+        desc: "Subscribe your tv cables",
         title: 'Tv/sub',
 
     },
     {
         id: 6,
         img: Giftcards,
+        desc: "Sell Giftcards on the go with us",
         title: 'Giftcards',
 
     },
@@ -82,3 +88,5 @@ export const networkData = [
         color:'#D6E806'
     },
 ]
+
+

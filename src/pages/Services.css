@@ -1,0 +1,40 @@
+.services-main{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: .5rem;
+    padding-top: 1.5rem;
+    /* margin-top: 1rem ; */
+    
+}
+
+.services-main .services-body{
+    /* background-color: inherit; */
+    background: #23262F;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.services-body img  {
+    background: inherit;
+    width: 30px;
+}
+
+.services-body .services-desc {
+    background: inherit;
+}
+h4{
+    background: inherit;
+    color: #EDEEEF;
+}
+
+p{
+    color: #A4A7B5;
+    font-size: 12px;
+
+}

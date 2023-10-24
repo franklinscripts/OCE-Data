@@ -26,6 +26,9 @@ const History = () => {
       
       
       />
+      <div className="history-main">
+        <p>You do not have any current transactions</p>
+      </div>
     </div>
   )
 }

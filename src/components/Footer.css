@@ -36,9 +36,12 @@ a{
     color: #2D2D2D;
 }
 
-a.active{
+/* a.active{
         color: white;
 
+} */
+a.active {
+    color: white;
 }
 p{
     background-color: inherit;

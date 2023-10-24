@@ -51,8 +51,11 @@ const Home = () => {
         <QuickAccess />
         <Network />
        
+      <div className="main-footer">
+        <h1>Recent transactions</h1>
+        <p>Your recent transactions would appear here.</p>
+      </div>
         </div>
-     
       </div>
     </div>
   )

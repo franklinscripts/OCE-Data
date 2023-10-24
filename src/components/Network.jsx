@@ -48,6 +48,26 @@ const Network = () => {
 
           ))}
         </div>
+        <div className='plan'>
+          <header>Choose Plan</header>
+          <div className='dats'>
+
+          <div className='gb'>
+            <p>30 Days</p>
+            <span>500MB</span>
+            <b>₦120.00</b>
+          </div>
+          <div className='gb'>
+            <p>30 Days</p>
+            <span>500MB</span>
+            <b>₦120.00</b>
+          </div>
+          <div className='see-all'>
+                SEE ALL
+          </div>
+          </div>
+
+        </div>
         <div className="phone-area">
           <span>Phone Number</span>
           <input type="text" placeholder="0906 591 9472" />
